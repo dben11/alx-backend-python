@@ -2,8 +2,6 @@
 """Basic annotation-floor"""
 
 
-
-
 def floor(n: float) -> int:
-    """return the floor of the float"""
+    """Return the floor of the float"""
     return int(n)

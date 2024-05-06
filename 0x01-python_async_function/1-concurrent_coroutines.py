@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-"""Usint the Asynchronous module, the random and the async module"""
+"""
+Using the Asynchronous module, the random and the async module
+
+"""
 
 import asyncio
 from typing import List
+
+
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 

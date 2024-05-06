@@ -1,19 +1,16 @@
 #!/usr/bin/env python3
-"""Use the random and the asyncio  module"""
-
+"""A module for asynchronous operations using random and asyncio."""
 
 import asyncio
 import random
 
 
-"""The basics of async"""
+async def wait_random(max_delay: int = 10) -> float:
+    """Asynchronously wait for a random amount of time.
 
-
-async def wait_random(max_delay=10) -> float:
-    """Wait for some time"""
-
+    Returns:
+        float: The random delay waited.
+    """
     delay = random.uniform(0, max_delay)
     await asyncio.sleep(delay)
-    """Return the delay"""
-
     return delay

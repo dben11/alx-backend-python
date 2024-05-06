@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Use the random and the asyncio  module"""i
+"""Use the random and the asyncio  module"""
 
 
 import asyncio
